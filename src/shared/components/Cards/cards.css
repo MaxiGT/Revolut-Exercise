@@ -1,0 +1,41 @@
+.cardContainer {
+    min-height: 218px;
+}
+
+.marginTopBotAuto {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.exchangeInput {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 60px;
+    max-width: 230px;
+    float: right;
+}
+
+.walletAvailable {
+    font-size: 15px;
+}
+
+.walletId {
+    font-size: 60px;
+}
+
+.currencyExchangecontainer {
+    margin: auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}

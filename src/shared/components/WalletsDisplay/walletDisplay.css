@@ -1,0 +1,49 @@
+.walletContainer {
+	background-image: linear-gradient(blue, lightblue);
+	background-color: blue;
+	min-height: 500px;
+	padding-top: 4%;
+    padding-bottom: 15%;
+}
+
+.iconContainer {
+	min-height: 80px;
+	font-size: 35px;
+	border-radius: 50%;
+	width: 80px;
+	border: 1.5px solid black;
+	cursor: pointer;
+}
+
+.buttonsContainer {
+	width: 80%;
+	padding: 50px;
+}
+
+@media only screen and (min-width : 1010px) {
+	.sideButton {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width : 1009px) {
+	.rightButton {
+		float: right;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.iconContainer {
+		min-height: 60px;
+		font-size: 25px;
+		border-radius: 50%;
+		width: 60px;
+		border: 1.5px solid black;
+		cursor: pointer;
+	}
+
+	.buttonsContainer {
+		width: auto;
+		padding: 0px;
+	}
+}

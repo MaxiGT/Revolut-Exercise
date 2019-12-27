@@ -1,0 +1,12 @@
+.disabled {
+	color: grey !important;
+}
+
+.headerText {
+	font-size: 30px;
+	color: white;
+}
+
+.borderBottom {
+	border-bottom: 0.5px solid lightsteelblue;
+}
